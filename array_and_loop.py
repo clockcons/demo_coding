@@ -31,16 +31,4 @@ while True:
     elif entry == "No":
         break
     else:
-        while True:
-            try:
-                print("Invalid Input")
-                print("Please input either 'Yes' or 'No'")
-                entry = input("Would you want to input another entry? ('Yes' or 'No'): ")
-                if entry == "Yes":
-                    break
-            except entry == "No":
-                while True:    
-                    break
-                break
-            break
-        break
+        print("Invalid Input")
